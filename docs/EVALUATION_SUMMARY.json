@@ -1,0 +1,61 @@
+{
+  "mode": "demo",
+  "timestamp_utc": "2026-11-06T04:11:54.024992+00:00",
+  "test_set": "45 manually authored phrase/sentence cases, not a standardized Aksharantar benchmark",
+  "all": {
+    "n": 45,
+    "mean_CER": 0.0405,
+    "word_accuracy": 0.9704,
+    "exact_match": 0.9111
+  },
+  "by_language": {
+    "Hindi": {
+      "n": 15,
+      "mean_CER": 0.0571,
+      "word_accuracy": 0.9556,
+      "exact_match": 0.8667
+    },
+    "Kannada": {
+      "n": 15,
+      "mean_CER": 0.0351,
+      "word_accuracy": 0.9778,
+      "exact_match": 0.9333
+    },
+    "Tamil": {
+      "n": 15,
+      "mean_CER": 0.0293,
+      "word_accuracy": 0.9778,
+      "exact_match": 0.9333
+    }
+  },
+  "failures": [
+    {
+      "case_id": "H13",
+      "source": "mujhe certificate chahiye",
+      "expected": "मुझे सर्टिफिकेट चाहिए",
+      "predicted": "मुझे certificate चाहिए",
+      "cer": 0.52381
+    },
+    {
+      "case_id": "H14",
+      "source": "mujhe Email chahiye",
+      "expected": "मुझे ईमेल चाहिए",
+      "predicted": "मुझे Email चाहिए",
+      "cer": 0.33333
+    },
+    {
+      "case_id": "K13",
+      "source": "nanna assignment ide",
+      "expected": "ನನ್ನ ಅಸೈನ್ಮೆಂಟ್ ಇದೆ",
+      "predicted": "ನನ್ನ assignment ಇದೆ",
+      "cer": 0.52632
+    },
+    {
+      "case_id": "T13",
+      "source": "enakku assignment venum",
+      "expected": "எனக்கு அசைன்மென்ட் வேணும்",
+      "predicted": "எனக்கு assignment வேணும்",
+      "cer": 0.44
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Verified in the build environment on 2026-11-06:
+
+$ python -m pytest -q
+....................                                                     [100%]
+20 passed in 0.07s
+
+$ python evaluation/run_eval.py --mode demo --output evaluation/results-demo.csv
+Number of test cases: 45
+Overall mean CER: 0.0405
+Overall word accuracy: 0.9704
+Overall sentence exact match: 0.9111
+Observed failed exact-match cases: H13, H14, K13, T13
+
+IMPORTANT: This command tests only the small offline lexicon, NOT a neural AI4Bharat checkpoint.
+Real model inference and deployment were not exercised in the build environment.

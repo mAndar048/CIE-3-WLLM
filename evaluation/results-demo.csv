@@ -1,0 +1,46 @@
+﻿case_id,language,category,source,reference,notes,prediction,cer,word_accuracy,exact_match
+H01,Hindi,greeting,namaste,नमस्ते,Common greeting,नमस्ते,0.0,1.0,1
+H02,Hindi,self_intro,mera naam bharat hai,मेरा नाम भारत है,Simple declarative,मेरा नाम भारत है,0.0,1.0,1
+H03,Hindi,education,aaj class hai,आज क्लास है,Campus language,आज क्लास है,0.0,1.0,1
+H04,Hindi,request,mujhe paani chahiye,मुझे पानी चाहिए,Daily need,मुझे पानी चाहिए,0.0,1.0,1
+H05,Hindi,punctuation,kal exam hai!,कल परीक्षा है!,Exclamation,कल परीक्षा है!,0.0,1.0,1
+H06,Hindi,question,aap kaise hain?,आप कैसे हैं?,Formal question,आप कैसे हैं?,0.0,1.0,1
+H07,Hindi,education,mujhe fees batao,मुझे फीस बताओ,Fee query,मुझे फीस बताओ,0.0,1.0,1
+H08,Hindi,greeting,shukriya dost,शुक्रिया दोस्त,Thanks,शुक्रिया दोस्त,0.0,1.0,1
+H09,Hindi,command,jaldi aao,जल्दी आओ,Imperative,जल्दी आओ,0.0,1.0,1
+H10,Hindi,education,aaj raat padhai karna,आज रात पढ़ाई करना,Longer phrase,आज रात पढ़ाई करना,0.0,1.0,1
+H11,Hindi,code_mix,GitHub link bhejo,GitHub link भेजो,Protected English terms,GitHub link भेजो,0.0,1.0,1
+H12,Hindi,numeric,kal 9:30 class hai,कल 9:30 क्लास है,Time preservation,कल 9:30 क्लास है,0.0,1.0,1
+H13,Hindi,unseen,mujhe certificate chahiye,मुझे सर्टिफिकेट चाहिए,English loanword not in offline lexicon,मुझे certificate चाहिए,0.52381,0.66667,0
+H14,Hindi,code_mix,mujhe Email chahiye,मुझे ईमेल चाहिए,Email is intentionally protected by default,मुझे Email चाहिए,0.33333,0.66667,0
+H15,Hindi,question,aapka naam kya hai?,आपका नाम क्या है?,Question marker,आपका नाम क्या है?,0.0,1.0,1
+K01,Kannada,greeting,namaskara,ನಮಸ್ಕಾರ,Common greeting,ನಮಸ್ಕಾರ,0.0,1.0,1
+K02,Kannada,self_intro,nanna hesaru,ನನ್ನ ಹೆಸರು,Name phrase,ನನ್ನ ಹೆಸರು,0.0,1.0,1
+K03,Kannada,command,nanu mane hogi,ನಾನು ಮನೆ ಹೋಗಿ,Movement phrase,ನಾನು ಮನೆ ಹೋಗಿ,0.0,1.0,1
+K04,Kannada,education,ivattu pareekshe ide,ಇವತ್ತು ಪರೀಕ್ಷೆ ಇದೆ,Exam statement,ಇವತ್ತು ಪರೀಕ್ಷೆ ಇದೆ,0.0,1.0,1
+K05,Kannada,question,neevu hege,ನೀವು ಹೇಗೆ,Short question,ನೀವು ಹೇಗೆ,0.0,1.0,1
+K06,Kannada,request,neeru beku,ನೀರು ಬೇಕು,Daily need,ನೀರು ಬೇಕು,0.0,1.0,1
+K07,Kannada,education,naale class ide,ನಾಳೆ ಕ್ಲಾಸ್ ಇದೆ,Campus phrase,ನಾಳೆ ಕ್ಲಾಸ್ ಇದೆ,0.0,1.0,1
+K08,Kannada,request,dayavittu sahaya madi,ದಯವಿಟ್ಟು ಸಹಾಯ ಮಾಡಿ,Polite request,ದಯವಿಟ್ಟು ಸಹಾಯ ಮಾಡಿ,0.0,1.0,1
+K09,Kannada,greeting,tumba santosha,ತುಂಬಾ ಸಂತೋಷ,Positive sentiment,ತುಂಬಾ ಸಂತೋಷ,0.0,1.0,1
+K10,Kannada,question,elli college ide?,ಎಲ್ಲಿ ಕಾಲೇಜು ಇದೆ?,Location query,ಎಲ್ಲಿ ಕಾಲೇಜು ಇದೆ?,0.0,1.0,1
+K11,Kannada,numeric,naale 10:00 pareekshe ide,ನಾಳೆ 10:00 ಪರೀಕ್ಷೆ ಇದೆ,Time preservation,ನಾಳೆ 10:00 ಪರೀಕ್ಷೆ ಇದೆ,0.0,1.0,1
+K12,Kannada,code_mix,GitHub project ide,GitHub project ಇದೆ,Technical code-mixing,GitHub project ಇದೆ,0.0,1.0,1
+K13,Kannada,unseen,nanna assignment ide,ನನ್ನ ಅಸೈನ್ಮೆಂಟ್ ಇದೆ,Unseen loanword,ನನ್ನ assignment ಇದೆ,0.52632,0.66667,0
+K14,Kannada,greeting,howdu sari,ಹೌದು ಸರಿ,Affirmation,ಹೌದು ಸರಿ,0.0,1.0,1
+K15,Kannada,question,nimma hesaru enu?,ನಿಮ್ಮ ಹೆಸರು ಏನು?,Name question,ನಿಮ್ಮ ಹೆಸರು ಏನು?,0.0,1.0,1
+T01,Tamil,greeting,vanakkam,வணக்கம்,Common greeting,வணக்கம்,0.0,1.0,1
+T02,Tamil,self_intro,en peyar,என் பெயர்,Name phrase,என் பெயர்,0.0,1.0,1
+T03,Tamil,request,enakku thanni venum,எனக்கு தண்ணி வேணும்,Colloquial need,எனக்கு தண்ணி வேணும்,0.0,1.0,1
+T04,Tamil,education,naalai exam irukku,நாளை தேர்வு இருக்கு,Campus query,நாளை தேர்வு இருக்கு,0.0,1.0,1
+T05,Tamil,question,neenga eppadi irukeenga,நீங்க எப்படி இருக்கீங்க,Spoken Tamil,நீங்க எப்படி இருக்கீங்க,0.0,1.0,1
+T06,Tamil,greeting,nandri nanban,நன்றி நண்பன்,Thanks,நன்றி நண்பன்,0.0,1.0,1
+T07,Tamil,request,enakku puthagam venum,எனக்கு புத்தகம் வேணும்,Textbook,எனக்கு புத்தகம் வேணும்,0.0,1.0,1
+T08,Tamil,education,inga college irukku,இங்க காலேஜ் இருக்கு,Campus sentence,இங்க காலேஜ் இருக்கு,0.0,1.0,1
+T09,Tamil,education,naalaiku class irukku,நாளைக்கு கிளாஸ் இருக்கு,Class reference,நாளைக்கு கிளாஸ் இருக்கு,0.0,1.0,1
+T10,Tamil,question,enge veedu,எங்கே வீடு,Location expression,எங்கே வீடு,0.0,1.0,1
+T11,Tamil,numeric,naalai 9:30 class irukku,நாளை 9:30 கிளாஸ் இருக்கு,Time preservation,நாளை 9:30 கிளாஸ் இருக்கு,0.0,1.0,1
+T12,Tamil,code_mix,GitHub project irukku,GitHub project இருக்கு,Technical code-mixing,GitHub project இருக்கு,0.0,1.0,1
+T13,Tamil,unseen,enakku assignment venum,எனக்கு அசைன்மென்ட் வேணும்,Unseen loanword,எனக்கு assignment வேணும்,0.44,0.66667,0
+T14,Tamil,request,solunga please,சொல்லுங்க தயவுசெய்து,Politeness,சொல்லுங்க தயவுசெய்து,0.0,1.0,1
+T15,Tamil,question,yen illai?,ஏன் இல்லை?,Question and negation,ஏன் இல்லை?,0.0,1.0,1
