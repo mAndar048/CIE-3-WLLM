@@ -1,0 +1,6 @@
+# Install in a separate/compatible environment when necessary; downloads checkpoint weights.
+torch>=2.5
+transformers>=4.51,<5
+indictranstoolkit>=1.0
+sentencepiece
+sacremoses
